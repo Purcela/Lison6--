@@ -6,6 +6,8 @@
 
 .fr  { float: right; }
 
+.rel { position: relative; }
+
 .clear::after { content: '';
                 clear: both;
                 display: block; } 
@@ -13,9 +15,17 @@
 .midle { width: 1600px ;
          margin: 0 auto;}
 
+.after::after { content:'';
+                width: 47px;
+                height: 4px;
+                float: right;
+                clear: both;
+                background-color: #FF7A00;
+                margin-top: 5px;
+                margin-left: 20px; }
+
 
                                        /*other class*/
-
 
 .header-img { width: 134px;
               height: 90px;
@@ -45,8 +55,6 @@
 .section1 { width: 1600px;
             height: 382px; }
 
-.section1-div1 { position: relative; }
-
 .section1-img { width: 1600px;
                 height: 382px; }
 
@@ -68,10 +76,74 @@
                font-size: 48px;
                color: #FFFFFF; }
 
-.container-p { width: 150px;
+.container { width: 1600px; }
+
+.container-h3 { width: 150px;
                height: 30px;
                margin-top: 83px;
                margin-left: 172px;
                font-family: 'Poppins Medium';
                font-size: 22px;
                color: #FF7A00; }
+
+.container-box { width: 1324px;
+                 height: 1402px; }
+
+.big-box1,
+.big-box2 { width: 1324px;
+            height: 672px;
+            margin-left: 138px;
+            margin-top: 83px; }
+
+.big-box2 { margin-top: 58px; }
+
+.box1,
+.box2,
+.box3,
+.box4 { width: 636px;
+        height: 672px; }
+
+.box1-p1,
+.box2-p1,
+.box3-p1,
+.box4-p1 { width: 589px;
+           height: 94px;
+           margin-top: 20px;
+           font-family: 'Playfair Display Bold';
+           font-size: 36px;
+           color: #181C28; }
+
+.box1-p2,
+.box2-p2,
+.box3-p2,
+.box4-p2 { width: 636px;
+           height: 81px;
+           margin-top: 22px;
+           font-family: 'Poppins Regular';
+           font-size: 16px; }
+
+ .box1-p3,
+ .box2-p3,
+ .box3-p3,
+ .box4-p3 { width: 152px;
+            height: 19px;
+            color: #FF7A00;
+            margin-top: 13px;
+            font-family: 'Poppins Medium';
+            font-size: 14px; }
+
+.click { width: 190px;
+         height: 70px;
+         margin-bottom: 134px;
+         background-color: #FF7A00; }
+
+.click-p { width: 94px;
+           height: 21px;
+           color: #FFFFFF;
+           font-family: 'Poppins Regular';
+           font-size: 16px;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform:translate(-50%,-50%);
+           color: #FFFFFF; }
